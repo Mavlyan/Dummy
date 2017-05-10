@@ -1,8 +1,7 @@
 # Mygento_Dummy
 #### Simple and empty Magento module for Mygento daily routine
 [![](https://hsto.org/getpro/moikrug/uploads/company/100/005/044/5/logo/medium_8e505d151eb32be551f0d015f5a55cb6.png)](https://mygento.ru)
-<div><img src="https://hsto.org/getpro/moikrug/uploads/company/100/005/044/5/logo/medium_8e505d151eb32be551f0d015f5a55cb6.png" style="width: 200px;"/>
-</div>
+
 # Features
 #### 1. Helper
   - addLog() method writes your logs to var/dummy.log.
