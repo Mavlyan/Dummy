@@ -31,7 +31,7 @@ class Mygento_Dummy_Helper_Data extends Mage_Core_Helper_Abstract
     {
         $notification = Mage::getModel('adminnotification/inbox');
 
-        $notification->setDateAdded(date('Y-m-d H:i:s'));
+        $notification->setDateAdded(date('Y-m-d H:i:s', Mage::getModel('core/date')->timestamp(time())));
         $notification->setSeverity(Mage_AdminNotification_Model_Inbox::SEVERITY_MAJOR);
         $notification->setTitle($title);
         $notification->setDescription($description);
